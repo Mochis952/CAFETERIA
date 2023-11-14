@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alimentos</title>
+    <link rel="stylesheet" href="alimentos.css">
+</head>
+<body>
+    <header>
+        <section>
+            <img src="img/uamex.jpg" width="100" class="inline">
+            <p class="inline">cafetria</p>
+            <img src="img/usuario.png" width="50" class="inline">
+            <p class="inline"> usuario</p>
+        </section>
+    </header>
+    <article>
+        <section class="titulo">   
+            <h1>Alimentos</h1>
+        </section>
+        <section class="alimento">
+            
+                <h2>Pizza</h2>
+                <a href="compra-pizza.html"><img src="img/pizza.jpeg" ></a>
+                
+                <h3>Peperoni, Mexicana, Hawaiana</h3>
+                <h3>Rebanada 25$</h3>
+                <button class="add-to-cart" data-id="pizza" data-name="Pizza" data-price="25.00">Agregar al Carrito</button>
+        
+        </section>
+        <section class="alimento">
+                <h2>Tacos</h2>
+                <a href="compra-taco.html"><img src="img/taco.jpeg" ></a>
+                <h3>Bistec, Longaniza, Suadero</h3>
+                <h3>Taco 25$</h3>
+                <button class="add-to-cart" data-id="tacos" data-name="Tacos" data-price="25.00">Agregar al Carrito</button>
+            
+        </section>
+        <section class="alimento">
+            
+                <h2>Pambazo</h2>
+                <a href="compra-pambazo.html"><img src="img/pambazo.jpg"  width="200"></a>
+                <h3>Longaniza</h3>
+                <h3>Pambazo 25$</h3>
+                <button class="add-to-cart" data-id="pambazo" data-name="Pambazo" data-price="25.00">Agregar al Carrito</button>
+            
+        </section>
+    </article>
+
+    <section id="cart" style="display: none;">
+        <a href="carrito.html">
+                <img src="img/carrito.png" width="50">
+                <p class="inline"> Carrito</p>
+            </a>
+        <h2>Carrito de Compras</h2>
+        <ul id="cart-items">
+            <!-- Aquí se mostrarán los elementos del carrito -->
+        </ul>
+        <a href="compra_exitosa.html">
+            <button class="pay">Pagar</button>
+        </a>
+        
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

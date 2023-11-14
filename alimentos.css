@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    background-color: #efefef;
+}
+header{
+    background-color: #efb810;
+  margin: 10px;
+  text-align: center;
+
+   
+
+
+}
+.inline{
+    display: inline-block;
+}
+img{
+    margin: 30px;
+    float: inline;
+}
+.titulo{
+
+    text-align: center;
+    background-color: white;
+    margin-left: 500px;
+    margin-right: 500px;
+
+    border-radius: 0.5rem;
+   
+    
+}
+.alimento{
+    
+    text-align: center; 
+    margin: 50px ;
+    padding: 0px;
+    border-radius: 0.5rem;
+    background-color: white ;
+    width: 500px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    text-decoration: none;
+}
+
+
+  
+
+
+  

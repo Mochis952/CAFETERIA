@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    background-color: #efefef;
+
+}
+.logo{
+       
+       border-radius: 0.5rem;
+       margin: 5px 500px;       
+       height: 150px
+       
+}
+
+
+.exitosa h1{
+    font-size: 35px;
+    
+}
+.exitosa p{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+.compra {
+    text-align: left;
+    margin: 0px 500px 0px 500px;
+    border-radius: 0.5rem;
+    background-color: white;
+    padding-left: 50px;
+    padding-top: 20px;
+
+
+    
+}
+.imagen{
+    border-radius: 0.5rem;
+    padding-left: 400px;
+    position: absolute;
+   
+}
+.listo{
+    padding-left: 250px;
+    
+   
+}
+.comp{
+    padding-left: 250px;
+    font-size: 50px;
+}
+.exitosa{
+    background-color: white;
+    text-align: center;
+    border-radius: 5rem;
+    margin: 10px 500px 0px 500px;
+    padding-top: 50px;
+
+}
+
+    
+
